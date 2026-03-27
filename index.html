@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Interativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Contador de Cliques</h2>
+        <button id="btnIncrementar">Incrementar</button>
+        <button id="btnDecrementar">Decrementar</button>
+        <span id="valorContador">0</span>
+
+        <hr>
+
+        <h2>Texto Dinâmico</h2>
+        <input type="text" id="campoTexto" placeholder="Digite algo e aperte Enter...">
+        <p>Caracteres (sem espaços): <span id="numCaracteres">0</span></p>
+        <div id="containerParagrafos"></div>
+
+        <hr>
+
+        <h2>Adicionar Listas</h2>
+        <select id="tipoLista">
+            <option value="ul">Lista Não Ordenada (•)</option>
+            <option value="ol">Lista Ordenada (1.)</option>
+        </select>
+        <button id="btnAdicionarLista">Adicionar Lista de Exemplo</button>
+        <div id="containerListas"></div>
+
+        <hr>
+
+        <button id="btnReset" style="background-color: #ff4d4d; color: white;">Resetar Tudo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

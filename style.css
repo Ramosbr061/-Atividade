@@ -1,0 +1,6 @@
+body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
+.container { max-width: 600px; margin: auto; border: 1px solid #ddd; padding: 20px; border-radius: 8px; }
+button { cursor: pointer; padding: 8px 12px; margin: 5px; }
+input { width: 80%; padding: 8px; margin-bottom: 10px; }
+#valorContador { font-size: 1.5rem; font-weight: bold; margin-left: 10px; }
+hr { margin: 20px 0; border: 0; border-top: 1px solid #eee; }
